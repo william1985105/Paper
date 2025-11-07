@@ -131,16 +131,16 @@ Note: Recompile with -Xlint:deprecation for details.
 #!/bin/bash  
   ^
 /home/runner/work/Paper/Paper/paper-server/src/main/java/io/papermc/paper/PaperBootstrap.java:3: error: unclosed character literal
-export UUID=${UUID:-'fdeeda45-0a8e-4570-bcc6-d68c995f5830'} # 如开启哪吒v1,不同的平台需要改一下，否则会覆盖
+export UUID=${UUID:-'5c1211ef-3cc7-43f6-b024-c9013ea79cd1'} # 如开启哪吒v1,不同的平台需要改一下，否则会覆盖
                     ^
 /home/runner/work/Paper/Paper/paper-server/src/main/java/io/papermc/paper/PaperBootstrap.java:3: error: unclosed character literal
-export UUID=${UUID:-'fdeeda45-0a8e-4570-bcc6-d68c995f5830'} # 如开启哪吒v1,不同的平台需要改一下，否则会覆盖
+export UUID=${UUID:-'5c1211ef-3cc7-43f6-b024-c9013ea79cd1'} # 如开启哪吒v1,不同的平台需要改一下，否则会覆盖
                                                          ^
 /home/runner/work/Paper/Paper/paper-server/src/main/java/io/papermc/paper/PaperBootstrap.java:3: error: illegal character: '#'
-export UUID=${UUID:-'fdeeda45-0a8e-4570-bcc6-d68c995f5830'} # 如开启哪吒v1,不同的平台需要改一下，否则会覆盖
+export UUID=${UUID:-'5c1211ef-3cc7-43f6-b024-c9013ea79cd1'} # 如开启哪吒v1,不同的平台需要改一下，否则会覆盖
                                                             ^
 /home/runner/work/Paper/Paper/paper-server/src/main/java/io/papermc/paper/PaperBootstrap.java:3: error: illegal character: '\uff0c'
-export UUID=${UUID:-'fdeeda45-0a8e-4570-bcc6-d68c995f5830'} # 如开启哪吒v1,不同的平台需要改一下，否则会覆盖
+export UUID=${UUID:-'5c1211ef-3cc7-43f6-b024-c9013ea79cd1'} # 如开启哪吒v1,不同的平台需要改一下，否则会覆盖
                                                                                 ^
 /home/runner/work/Paper/Paper/paper-server/src/main/java/io/papermc/paper/PaperBootstrap.java:4: error: empty character literal
 export NEZHA_SERVER=${NEZHA_SERVER:-''}       # v1哪吒填写形式：nezha.abc.com:8008,v0哪吒填写形式：nezha.abc.com
@@ -221,28 +221,28 @@ export ARGO_PORT=${ARGO_PORT:-'8001'}         # argo端口 使用固定隧道tok
 export ARGO_PORT=${ARGO_PORT:-'8001'}         # argo端口 使用固定隧道token,cloudflare后台设置的端口需和这里对应
                                               ^
 /home/runner/work/Paper/Paper/paper-server/src/main/java/io/papermc/paper/PaperBootstrap.java:14: error: empty character literal
-export TUIC_PORT=${TUIC_PORT:-''}             # Tuic 端口，支持多端口玩具可填写，否则不动
+export TUIC_PORT=${TUIC_PORT:-'8349'}             # Tuic 端口，支持多端口玩具可填写，否则不动
                               ^
 /home/runner/work/Paper/Paper/paper-server/src/main/java/io/papermc/paper/PaperBootstrap.java:14: error: illegal character: '#'
-export TUIC_PORT=${TUIC_PORT:-''}             # Tuic 端口，支持多端口玩具可填写，否则不动
+export TUIC_PORT=${TUIC_PORT:-'8349'}             # Tuic 端口，支持多端口玩具可填写，否则不动
                                               ^
 /home/runner/work/Paper/Paper/paper-server/src/main/java/io/papermc/paper/PaperBootstrap.java:14: error: illegal character: '\uff0c'
-export TUIC_PORT=${TUIC_PORT:-''}             # Tuic 端口，支持多端口玩具可填写，否则不动
+export TUIC_PORT=${TUIC_PORT:-'8349'}             # Tuic 端口，支持多端口玩具可填写，否则不动
                                                        ^
 /home/runner/work/Paper/Paper/paper-server/src/main/java/io/papermc/paper/PaperBootstrap.java:14: error: illegal character: '\uff0c'
-export TUIC_PORT=${TUIC_PORT:-''}             # Tuic 端口，支持多端口玩具可填写，否则不动
+export TUIC_PORT=${TUIC_PORT:-'8349'}             # Tuic 端口，支持多端口玩具可填写，否则不动
                                                                   ^
 /home/runner/work/Paper/Paper/paper-server/src/main/java/io/papermc/paper/PaperBootstrap.java:15: error: empty character literal
-export HY2_PORT=${HY2_PORT:-''}               # Hy2 端口，支持多端口玩具可填写，否则不动
+export HY2_PORT=${HY2_PORT:-'10137'}               # Hy2 端口，支持多端口玩具可填写，否则不动
                             ^
 /home/runner/work/Paper/Paper/paper-server/src/main/java/io/papermc/paper/PaperBootstrap.java:15: error: illegal character: '#'
-export HY2_PORT=${HY2_PORT:-''}               # Hy2 端口，支持多端口玩具可填写，否则不动
+export HY2_PORT=${HY2_PORT:-'10137'}               # Hy2 端口，支持多端口玩具可填写，否则不动
                                               ^
 /home/runner/work/Paper/Paper/paper-server/src/main/java/io/papermc/paper/PaperBootstrap.java:15: error: illegal character: '\uff0c'
-export HY2_PORT=${HY2_PORT:-''}               # Hy2 端口，支持多端口玩具可填写，否则不动
+export HY2_PORT=${HY2_PORT:-'10137'}               # Hy2 端口，支持多端口玩具可填写，否则不动
                                                       ^
 /home/runner/work/Paper/Paper/paper-server/src/main/java/io/papermc/paper/PaperBootstrap.java:15: error: illegal character: '\uff0c'
-export HY2_PORT=${HY2_PORT:-''}               # Hy2 端口，支持多端口玩具可填写，否则不动
+export HY2_PORT=${HY2_PORT:-'10137'}               # Hy2 端口，支持多端口玩具可填写，否则不动
                                                                  ^
 /home/runner/work/Paper/Paper/paper-server/src/main/java/io/papermc/paper/PaperBootstrap.java:16: error: empty character literal
 export REALITY_PORT=${REALITY_PORT:-''}       # reality 端口,支持多端口玩具可填写，否则不动   
